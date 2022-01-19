@@ -26,9 +26,9 @@ int main()
 				j == height / 2 + i || // правая линия
 				j == height / 2 - i // левая линия
 				)
-				cout << "*";
+				cout << "* ";
 			else
-				cout << " ";
+				cout << "  ";
 		}
 		cout << "\n";
 	}

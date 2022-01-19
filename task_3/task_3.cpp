@@ -27,9 +27,9 @@ int main()
 				i == diagonal - 1 - j - diagonal / 2 || // левая верхняя линия
 				i == diagonal - 1 - j + diagonal / 2 // правая нижняя линия
 				)
-				cout << "*";
+				cout << "* ";
 			else
-				cout << " ";
+				cout << "  ";
 		}
 		cout << "\n";
 	}

@@ -25,9 +25,9 @@ int main()
 			if (i >= j - diagonal / 2 && i >= diagonal - 1 - j - diagonal / 2 && i <= diagonal / 2 || // верхняя половина
 				i <= j + diagonal / 2 && i <= diagonal - 1 - j + diagonal / 2 && i >= diagonal / 2 // нижняя половина
 				)
-				cout << "*";
+				cout << "* ";
 			else
-				cout << " ";
+				cout << "  ";
 		}
 		cout << "\n";
 	}

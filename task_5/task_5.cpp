@@ -12,7 +12,26 @@ int main()
 {
 	setlocale(LC_ALL, ""); // работает только с потоком вывода
 
+	cout << "Введите высоту бабочки: " << endl;
+	int height{ 0 };
+	cin >> height;
 
+	int i{ 0 }, j{ 0 };
+
+	for (i = 0; i < height; i++)
+	{
+		for (j = 0; j < height; j++)
+		{
+			if (j == height / 2 // центральная линия
+				|| j == 
+
+				)
+				cout << "* ";
+			else
+				cout << "  ";
+		}
+		cout << "\n";
+	}
 
 	return 0;
 }

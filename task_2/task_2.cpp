@@ -24,9 +24,9 @@ int main()
 		for (j = 0; j < height; j++)
 		{
 			if (j >= height / 2 - i && j <= height / 2 + i && i <= height / 2)
-				cout << "*";
+				cout << "* ";
 			else
-				cout << " ";
+				cout << "  ";
 		}
 		cout << "\n";
 	}

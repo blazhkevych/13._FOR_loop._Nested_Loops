@@ -23,8 +23,8 @@ int main()
 		for (j = 0; j < height; j++)
 		{
 			if (i == (height - 1) / 2 || // нижняя линия
-				i == i && j == height / 2 + i || // правая линия
-				i == i && j == height / 2 - i // левая линия
+				j == height / 2 + i || // правая линия
+				j == height / 2 - i // левая линия
 				)
 				cout << "*";
 			else
